@@ -1,5 +1,6 @@
 # compiled objects
 *.o
+.venv/
 
 # compiled graphics
 *.1bpp
