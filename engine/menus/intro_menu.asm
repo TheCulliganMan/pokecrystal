@@ -748,7 +748,7 @@ NamePlayer:
 	farcall ShowPlayerNamingChoices
 	ld a, [wMenuCursorY]
 	dec a
-	jr z, .NewName
+	; jr z, .NewName
 	call StorePlayerName
 	farcall ApplyMonOrTrainerPals
 	farcall MovePlayerPicLeft
