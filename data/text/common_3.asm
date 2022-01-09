@@ -1,7 +1,7 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
-	prompt
+	text "Now, you are"
+	line "Owen, right?"
+	done
 
 _OakText7::
 	text "<PLAYER>, are you"
