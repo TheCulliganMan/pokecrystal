@@ -63,7 +63,7 @@ NewGame:
 	ld [wDebugFlags], a
 	call ResetWRAM
 	call NewGame_ClearTilemapEtc
-	call AreYouABoyOrAreYouAGirl
+	; call AreYouABoyOrAreYouAGirl
 	call OakSpeech
 	call InitializeWorld
 
