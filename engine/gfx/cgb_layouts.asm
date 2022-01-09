@@ -779,7 +779,7 @@ _CGB_PackPals:
 	jr .got_gender
 
 .tutorial_male
-	ld hl, .ChrisPackPals
+	ld hl, .OwenPackPals
 
 .got_gender
 	ld de, wBGPals1
@@ -813,7 +813,7 @@ _CGB_PackPals:
 	ldh [hCGBPalUpdate], a
 	ret
 
-.ChrisPackPals:
+.OwenPackPals:
 INCLUDE "gfx/pack/pack.pal"
 
 .KrisPackPals:

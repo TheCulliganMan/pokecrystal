@@ -8990,16 +8990,16 @@ GetTrainerBackpic:
 ; What gender are we?
 	ld a, [wPlayerSpriteSetupFlags]
 	bit PLAYERSPRITESETUP_FEMALE_TO_MALE_F, a
-	jr nz, .Chris
+	jr nz, .Owen
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
-	jr z, .Chris
+	jr z, .Owen
 
 ; It's a girl.
 	farcall GetKrisBackpic
 	ret
 
-.Chris:
+.Owen:
 ; It's a boy.
 	ld b, BANK(ChrisBackpic)
 	ld hl, ChrisBackpic

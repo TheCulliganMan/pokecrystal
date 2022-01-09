@@ -19,12 +19,12 @@ TimeCapsule_MapScripts:
 
 .SetWhichChris:
 	special CableClubCheckWhichChris
-	iffalse .Chris2
+	iffalse .Owen2
 	disappear TIMECAPSULE_CHRIS2
 	appear TIMECAPSULE_CHRIS1
 	endcallback
 
-.Chris2:
+.Owen2:
 	disappear TIMECAPSULE_CHRIS1
 	appear TIMECAPSULE_CHRIS2
 	endcallback

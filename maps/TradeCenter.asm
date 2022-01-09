@@ -19,12 +19,12 @@ TradeCenter_MapScripts:
 
 .SetWhichChris:
 	special CableClubCheckWhichChris
-	iffalse .Chris2
+	iffalse .Owen2
 	disappear TRADECENTER_CHRIS2
 	appear TRADECENTER_CHRIS1
 	endcallback
 
-.Chris2:
+.Owen2:
 	disappear TRADECENTER_CHRIS1
 	appear TRADECENTER_CHRIS2
 	endcallback

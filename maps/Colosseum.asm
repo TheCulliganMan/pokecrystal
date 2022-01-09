@@ -24,12 +24,12 @@ Colosseum_MapScripts:
 
 .SetWhichChris:
 	special CableClubCheckWhichChris
-	iffalse .Chris2
+	iffalse .Owen2
 	disappear COLOSSEUM_CHRIS2
 	appear COLOSSEUM_CHRIS1
 	endcallback
 
-.Chris2:
+.Owen2:
 	disappear COLOSSEUM_CHRIS1
 	appear COLOSSEUM_CHRIS2
 	endcallback

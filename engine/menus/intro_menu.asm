@@ -774,7 +774,7 @@ NamePlayer:
 	call RotateThreePalettesLeft
 
 	ld hl, wPlayerName
-	ld de, .Chris
+	ld de, .Owen
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .Male
@@ -782,9 +782,8 @@ NamePlayer:
 .Male:
 	call InitName
 	ret
-
-.Chris:
-	db "CHRIS@@@@@@"
+.Owen:
+	db "Owen@@@@@@@"
 .Kris:
 	db "KRIS@@@@@@@"
 
